@@ -1,8 +1,5 @@
-import {sum} from './modules/sum';
-
-const root = document.querySelector('#root');
-root.textContent = sum(6, -1).toString();
+const root = document.querySelector('.root');
 
 const Handlebars = require("handlebars");
-const template = Handlebars.compile("Name: {{name}}");
-console.log(template({ name: "Nils" }));
+const template = Handlebars.compile("Name: <span>{{firstname}}</span> {{lastname}}");
+root.innerHTML = template({ firstname: "Vlad", lastname: "Burnaev" });
