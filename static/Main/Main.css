@@ -1,0 +1,64 @@
+.root {
+    font-family: 'Inter', sans-serif;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+}
+
+.chatsBlock {
+    width: 310px;
+    height: 100vh;
+    padding: 21px 10px 10px;
+
+    background: #FBFBFB;
+
+    border-right: 1px solid #EAEAEA;
+}
+
+.chatsBlock_header {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 14px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.settingsLink {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 100%;
+
+    color: #999;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+@media (hover: hover) {
+    .settingsLink:hover {
+        color: #bfb6b6;
+    }
+}
+
+.settingsLinkIcon {
+    margin-left: 8px;
+}
+
+.search {
+    width: 100%;
+    margin-top: 23px;
+    padding: 10px;
+    text-align: center;
+
+    border: none;
+    border-radius: 5px;
+
+    color: #999;
+    outline: none;
+    background: #EFEFEF;
+}
