@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SignIn.css">
+    <link rel="stylesheet" href="../reset.css">
+    <title>Месседжер</title>
+</head>
+<body>
+    <div class="root">
+        <div class="modal">
+            <h1 class="title">Вход</h1>
+            <form class="form" action="#" method="post">
+                <div class="inputBlock">
+                    <label for="auth_email">Логин</label>
+                    <input type="email" id="auth_email" required >
+                </div>
+                <div class="inputBlock">
+                    <label for="auth_pass">Пароль</label>
+                    <input type="password" id="auth_pass" required >
+                </div>
+                <button class="formSubmitButton" type="submit" name="auth_submit">Авторизироваться</button>
+                <a href="../SignUp/signUp.html" class="formLink">Нет аккаунта?</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
