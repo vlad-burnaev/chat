@@ -10,18 +10,19 @@
 .chatsBlock {
     width: 310px;
     height: 100vh;
-    padding: 21px 10px 10px;
 
     background: #FBFBFB;
 
     border-right: 1px solid #EAEAEA;
 }
 
-.chatsBlock_header {
+.chatsBlockHeader {
     display: flex;
     flex-direction: column;
+    /* todo - вынести в переменную */
+    height: 106px;
 
-    padding-bottom: 14px;
+    padding: 21px 10px 14px;
     border-bottom: 1px solid #EAEAEA;
 }
 
@@ -63,10 +64,15 @@
     background: #EFEFEF;
 }
 
+.chatsBlockChats {
+    height: calc(100vh - 106px);
+    overflow-y: auto;
+}
+
 .chat {
     display: flex;
     height: 70px;
-    padding: 12px 0;
+    padding: 12px 10px;
 
     border-bottom: 1px solid #EAEAEA;
 }
@@ -83,6 +89,10 @@
     background: #EFEFEF;
 }
 
+.chatTextBlock {
+    flex-grow: 1;
+}
+
 .chatTextBlockName {
     font-weight: 500;
     font-size: 12px;
@@ -97,6 +107,16 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
+
+    height: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.chatTextBlockLastMessagePrefix {
+    color: #1E1E1E;
 }
 
 .chatMeta {
@@ -104,8 +124,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-
-    width: 25px;
+    flex-shrink: 0;
 }
 
 .chatMetaTime {
