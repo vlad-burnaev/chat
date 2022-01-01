@@ -60,4 +60,5 @@ button {
 
 input {
     box-sizing: border-box;
+    border: none;
 }

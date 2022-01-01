@@ -18,13 +18,13 @@
             <div class="chatsBlockHeader">
                 <a href="../Settings/Settings.html" class="settingsLink">
                     Профиль
-                    <img src="../icons/arrow-right.svg" class="settingsLinkIcon" alt="Стрелка вправо">
+                    <img src="../icons/arrow-right-1.svg" class="settingsLinkIcon" alt="Стрелка вправо">
                 </a>
                 <input type="text" class="search" placeholder="Поиск">
             </div>
             <div class="chatsBlockChats">
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Андрей</div>
                         <div class="chatTextBlockLastMessage">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Киноклуб</div>
                         <div class="chatTextBlockLastMessage">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Илья</div>
                         <div class="chatTextBlockLastMessage">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Вадим</div>
                         <div class="chatTextBlockLastMessage">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">тет-а-теты</div>
                         <div class="chatTextBlockLastMessage">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">1, 2, 3</div>
                         <div class="chatTextBlockLastMessage">
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Design Destroyer</div>
                         <div class="chatTextBlockLastMessage">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Day.</div>
                         <div class="chatTextBlockLastMessage">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -159,7 +159,7 @@
                 </div>
 
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -173,7 +173,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -201,7 +201,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -215,7 +215,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -229,7 +229,7 @@
                     </div>
                 </div>
                 <div class="chat">
-                    <div class="chatAvatar"></div>
+                    <div class="dialogHeaderAvatar"></div>
                     <div class="chatTextBlock">
                         <div class="chatTextBlockName">Стас Рогозин</div>
                         <div class="chatTextBlockLastMessage">
@@ -245,7 +245,32 @@
             </div>
         </div>
         <div class="dialog">
-            todo
+            <div class="dialogActive">
+                <div class="dialogHeader">
+                    <div class="dialogHeaderLeftBlock">
+                        <div class="dialogHeaderAvatar"></div>
+                        <div class="dialogHeaderName">Вадим</div>
+                    </div>
+                    <div class="dialogHeaderRightBlock">
+                        <img src="../icons/menu.svg" alt="menu icon">
+                    </div>
+                </div>
+                <div class="dialogMain">
+
+                </div>
+                <div class="dialogFooter">
+                    <button class="dialogAttach">
+                        <img src="../icons/clip.svg" alt="clip">
+                    </button>
+                    <input type="text" placeholder="Сообщение" class="dialogInput">
+                    <button class="dialogEnterButton">
+                        <img src="../icons/arrow-right-2.svg" alt="right arrow">
+                    </button>
+                </div>
+            </div>
+<!--            <div class="dialogUnselected">-->
+<!--                Выберите чат чтобы отправить сообщение-->
+<!--            </div>-->
         </div>
     </div>
 </body>
