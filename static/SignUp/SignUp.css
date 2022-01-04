@@ -43,6 +43,14 @@
 
 .form input {
     width: 100%;
+
+    padding-bottom: 7px;
+
+    outline: none;
+}
+
+.inputBlock {
+    border-bottom: 1px solid #3369F3;
 }
 
 .inputBlock:not(:first-of-type) {

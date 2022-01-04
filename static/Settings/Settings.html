@@ -5,10 +5,52 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="./Settings.css">
     <title>Месседжер</title>
 </head>
 <body>
-    <h1>Настройки пользователя</h1>
-    <a href="../Main/Main.html">Назад</a>
+    <div class="root">
+        <div class="content">
+            <div class="avatar">
+                <img src="../icons/image.svg" alt="image">
+            </div>
+            <div class="name">Иван</div>
+            <div class="info">
+                <div class="item">
+                    <div class="infoItemCategory">Почта</div>
+                    <div class="infoItemData">pochta@yandex.ru</div>
+                </div>
+                <div class="item">
+                    <div class="infoItemCategory">Логин</div>
+                    <div class="infoItemData">ivanivanov</div>
+                </div>
+                <div class="item">
+                    <div class="infoItemCategory">Имя</div>
+                    <div class="infoItemData">Иван</div>
+                </div>
+                <div class="item">
+                    <div class="infoItemCategory">Фамилия</div>
+                    <div class="infoItemData">Иванов</div>
+                </div>
+                <div class="item">
+                    <div class="infoItemCategory">Имя в чате</div>
+                    <div class="infoItemData">Иван</div>
+                </div>
+                <div class="item">
+                    <div class="infoItemCategory">Телефон</div>
+                    <div class="infoItemData">+7 (909) 967 30 30</div>
+                </div>
+            </div>
+            <div class="actions">
+                <a href="#" class="action item">Изменить данные</a>
+                <a href="#" class="action item">Изменить пароль</a>
+                <a href="../SignIn/SignIn.html" class="action actionExit item">Выйти</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
