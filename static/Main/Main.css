@@ -224,9 +224,97 @@
 }
 
 .dialogMain {
+    display: flex;
+    flex-direction: column-reverse;
+
     height: calc(100vh - 110px);
 
+    padding: 30px 20px;
+
     overflow-y: auto;
+}
+
+.messageGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageGroup:not(:last-child) {
+    margin-top: 30px;
+}
+
+.message {
+    display: flex;
+    justify-content: flex-end;
+
+    max-width: 40%;
+
+    white-space: pre-line;
+
+    padding: 11px;
+}
+
+.message:not(:first-child) {
+    margin-top: 10px;
+}
+
+.myMessages {
+    align-items: flex-end;
+}
+
+.myMessages .message {
+    background: #E4EDFD;
+
+    border-radius: 12px 12px 0 12px;
+}
+
+.companionMessages {
+    align-items: flex-start;
+}
+
+.companionMessages .message {
+    background: #F8F8F8;
+
+    border-radius: 0 12px 12px 12px;
+}
+
+.companionMessages .messageMetaIcon {
+    display: none;
+}
+
+.messageText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.messageMeta {
+    display: flex;
+    align-items: flex-end;
+
+    margin-left: 14px;
+
+    color: #3369F3;
+}
+
+.myMessages .messageMeta {
+    color: #3369F3;
+}
+
+.companionMessages .messageMeta {
+    color: #999;
+}
+
+.messageMetaIcon {
+    height: 8px;
+
+    margin-right: 4px;
+}
+
+.messageMetaText {
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
 }
 
 .dialogFooter {
