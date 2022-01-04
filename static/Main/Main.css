@@ -243,6 +243,20 @@
     margin-top: 30px;
 }
 
+.messageGroupDate {
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    color: #999;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+
 .message {
     display: flex;
     justify-content: flex-end;
