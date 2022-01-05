@@ -1,3 +1,4 @@
+@import '../reset.css';
 @import '../../src/components/Form/Form.css';
 
 .signIn {
