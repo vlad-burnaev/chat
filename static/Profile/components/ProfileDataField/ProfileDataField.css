@@ -1,0 +1,25 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px 0;
+}
+
+.root:not(:last-child) {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.category {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.data {
+    color: #999;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+}
