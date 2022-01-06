@@ -1,3 +1,5 @@
+@import '../../../index.css';
+
 .avatar {
     display: flex;
     justify-content: center;
