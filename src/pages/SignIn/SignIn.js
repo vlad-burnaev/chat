@@ -1,8 +1,8 @@
 import {signInTemplate} from './SignIn.template';
 import {SignInData} from './SignIn.data';
-import {FormTemplate} from "../../src/components/Form/Form.template";
-import {FormFieldTemplate} from "../../src/components/FormField/FormField.template";
-import {ButtonTemplate} from "../../src/components/Button/Button.template";
+import {FormTemplate} from "../../components/Form/Form.template";
+import {FormFieldTemplate} from "../../components/FormField/FormField.template";
+import {ButtonTemplate} from "../../components/Button/Button.template";
 
 const Handlebars = require("handlebars");
 

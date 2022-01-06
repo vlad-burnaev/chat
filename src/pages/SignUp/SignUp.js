@@ -1,8 +1,8 @@
-import {FormFieldTemplate} from "../../src/components/FormField/FormField.template";
-import {ButtonTemplate} from "../../src/components/Button/Button.template";
+import {FormFieldTemplate} from "../../components/FormField/FormField.template";
+import {ButtonTemplate} from "../../components/Button/Button.template";
 import {SignUpData} from "./SignUp.data";
 import {signUpTemplate} from "./SignUp.template";
-import {FormTemplate} from "../../src/components/Form/Form.template";
+import {FormTemplate} from "../../components/Form/Form.template";
 
 const Handlebars = require("handlebars");
 
