@@ -3,7 +3,7 @@
     - вынести в переменные color, box-shadow
 */
 
-@import "../FormField/FormField.css";
+@import "FormField/FormField.css";
 @import "../Button/Button.css";
 
 .form {

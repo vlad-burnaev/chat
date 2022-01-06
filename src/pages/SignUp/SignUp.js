@@ -1,4 +1,4 @@
-import {FormFieldTemplate} from "../../components/FormField/FormField.template";
+import {FormFieldTemplate} from "../../components/Form/FormField/FormField.template";
 import {ButtonTemplate} from "../../components/Button/Button.template";
 import {SignUpData} from "./SignUp.data";
 import {signUpTemplate} from "./SignUp.template";
