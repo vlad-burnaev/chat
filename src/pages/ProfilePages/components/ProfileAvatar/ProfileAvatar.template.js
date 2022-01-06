@@ -1,9 +1,9 @@
 export const ProfileAvatarTemplate = `
     <div class="avatar">
-        <img src="../../../icons/image.svg" alt="image">
+        <img src={{src}} alt={{alt}} />
         <div class="avatarOverlay">
             <div class="avatarOverlayText">
-                Поменять аватар
+                {{overlayText}}
             </div>
         </div>
     </div>

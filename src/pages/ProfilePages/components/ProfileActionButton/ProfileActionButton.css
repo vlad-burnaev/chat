@@ -1,0 +1,22 @@
+@import '../../../../../static/index.css';
+
+.actionButton {
+    display: block;
+
+    width: 100%;
+    padding: 10px 0;
+
+    color: #3369F3;
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.actionButton:not(:last-child) {
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.actionButton:last-child {
+    color: #FF0000;
+}

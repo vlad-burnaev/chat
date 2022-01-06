@@ -1,6 +1,6 @@
-@import '../../../index.css';
+@import '../../../../../static/index.css';
 
-.root {
+.profileDataField {
     display: flex;
     justify-content: space-between;
 
@@ -8,7 +8,7 @@
     padding: 10px 0;
 }
 
-.root:not(:last-child) {
+.profileDataField:not(:last-child) {
     border-bottom: 1px solid #EAEAEA;
 }
 
