@@ -5,7 +5,7 @@ export const ProfileAvatarTemplate = `
         ${imageIcon}
         <div class="avatarOverlay">
             <div class="avatarOverlayText">
-                {{overlayText}}
+                Поменять аватар
             </div>
         </div>
     </div>

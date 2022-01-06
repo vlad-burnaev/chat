@@ -1,7 +1,4 @@
 export const ProfilePageData = {
-    avatar: {
-        overlayText: "Поменять аватар"
-    },
     data: [
         { category: "Почта", data: "pochta@yandex.ru" },
         { category: "Логин", data: "ivanivanov" },
@@ -13,7 +10,7 @@ export const ProfilePageData = {
     actions: [
         { href: "/src/pages/ProfilePages/ProfileEditData/ProfileEditData.html", label: "Изменить данные" },
         { href: "/src/pages/ProfilePages/ProfileChangePassword/ProfileChangePassword.html", label: "Изменить пароль" },
-        { href: "/src/pages/SignIn/SignIn.html", label: "Выйти" },
+        { href: "/src/pages/SignUp/SignUp.html", label: "Выйти" },
     ],
     goBack: {
         href: "/static/Main/Main.html"

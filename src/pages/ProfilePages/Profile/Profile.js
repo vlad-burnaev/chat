@@ -1,9 +1,9 @@
-import {ProfileAvatarTemplate} from "./components/ProfileAvatar/ProfileAvatar.template";
-import {ProfileDataFieldTemplate} from "./components/ProfileDataField/ProfileDataField.template";
-import {ProfileActionButtonTemplate} from "./components/ProfileActionButton/ProfileActionButton.template";
+import {ProfileAvatarTemplate} from "../components/ProfileAvatar/ProfileAvatar.template";
+import {ProfileDataFieldTemplate} from "../components/ProfileDataField/ProfileDataField.template";
+import {ProfileActionButtonTemplate} from "../components/ProfileActionButton/ProfileActionButton.template";
 import {ProfilePageTemplate} from "./Profile.template";
 import {ProfilePageData} from "./Profile.data";
-import {ProfileGoBackTemplate} from "./components/ProfileGoBack/ProfileGoBack.template";
+import {ProfileGoBackTemplate} from "../components/ProfileGoBack/ProfileGoBack.template";
 
 const Handlebars = require("handlebars");
 
