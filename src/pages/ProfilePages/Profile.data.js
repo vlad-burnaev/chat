@@ -1,7 +1,5 @@
 export const ProfilePageData = {
     avatar: {
-        src: "/static/icons/image.svg",
-        alt: "image",
         overlayText: "Поменять аватар"
     },
     data: [

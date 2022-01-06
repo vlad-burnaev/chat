@@ -1,7 +1,9 @@
+import {ArrowLeftIcon} from "/static/icons/arrowLeftIcon";
+
 export const ProfileGoBackTemplate = `
     <a href={{href}} class="goBack">
         <div class="goBackButton">
-            <img src="/static/icons/arrow-right-2.svg" class="goBackButtonIcon" alt="arrow-left" />
+            ${ArrowLeftIcon}
         </div>
     </a>
 `
