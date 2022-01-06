@@ -12,5 +12,6 @@ export const ProfilePageTemplate = `
                 {{> ProfileActionButton }}
             {{/actions}}
         </div>
+        {{> ProfileGoBack goBack }}
     </div>
 `

@@ -1,6 +1,6 @@
 export const ProfilePageData = {
     avatar: {
-        src: "../../../static/icons/image.svg",
+        src: "/static/icons/image.svg",
         alt: "image",
         overlayText: "Поменять аватар"
     },
@@ -13,8 +13,11 @@ export const ProfilePageData = {
         { category: "Телефон", data: "+7 (909) 967 30 30" }
     ],
     actions: [
-        { href: "ProfileEditData/ProfileEditData.html", label: "Изменить данные" },
-        { href: "ProfileEditData/ProfileChangePassword.html", label: "Изменить пароль" },
-        { href: "../SignIn/SignIn.html", label: "Выйти" },
-    ]
+        { href: "/src/pages/ProfilePages/ProfileEditData/ProfileEditData.html", label: "Изменить данные" },
+        { href: "/src/pages/ProfilePages/ProfileChangePassword/ProfileChangePassword.html", label: "Изменить пароль" },
+        { href: "/src/pages/SignIn/SignIn.html", label: "Выйти" },
+    ],
+    goBack: {
+        href: "/static/Main/Main.html"
+    }
 }

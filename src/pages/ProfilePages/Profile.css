@@ -1,7 +1,8 @@
-@import "../../../static/index.css";
+@import "/index.css";
 @import "./components/ProfileAvatar/ProfileAvatar.css";
 @import "./components/ProfileDataField/ProfileDataField.css";
 @import "./components/ProfileActionButton/ProfileActionButton.css";
+@import "./components/ProfileGoBack/ProfileGoBack.css";
 
 .ProfilePage {
     display: flex;

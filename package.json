@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/parcel static/index.html",
-    "build": "./node_modules/.bin/parcel build static/index.html"
+    "dev": "./node_modules/.bin/parcel index.html",
+    "build": "./node_modules/.bin/parcel build index.html"
   },
   "keywords": [],
   "author": "Vlad Burnaev <vlad.burn325@gmail.com>",
