@@ -7,7 +7,7 @@ export const ProfileEditDataPageData = {
         { id: 'display_name', category: "Имя в чате", type: 'text', placeholder: "Иван" },
         { id: 'phone', category: "Телефон", type: 'tel', placeholder: "+7 (909) 967 30 30" }
     ],
-    submitButton: { href: "../Profile.html", label: "Сохранить" },
+    submitButton: { href: "../Profile/Profile.html", label: "Сохранить" },
     goBack: {
         href: "../Profile.html"
     }
