@@ -10,7 +10,7 @@ export const ProfilePageData = {
     actions: [
         { href: "/src/pages/ProfilePages/ProfileEditData/ProfileEditData.html", label: "Изменить данные" },
         { href: "/src/pages/ProfilePages/ProfileChangePassword/ProfileChangePassword.html", label: "Изменить пароль" },
-        { href: "/src/pages/SignUp/SignUp.html", label: "Выйти" },
+        { href: "/src/pages/SignIn/SignIn.html", label: "Выйти" },
     ],
     goBack: {
         href: "/src/pages/Main/Main.html"
