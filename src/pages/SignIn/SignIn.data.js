@@ -7,7 +7,7 @@ export const SignInData = {
         ],
         submitButton: {
             label: 'Авторизироваться',
-            href: '../Main/Main.html'
+            href: '/src/pages/Main/Main.html'
         },
         secondaryButton: {
             label: 'Нет аккаунта?',

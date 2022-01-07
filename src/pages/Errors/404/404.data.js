@@ -3,6 +3,6 @@ export const ErrorData = {
     subtitle: 'Не туда попали',
     link: {
         label: 'Назад к чатам',
-        href: '../Main/Main.html'
+        href: '/src/pages/Main/Main.html'
     }
 }

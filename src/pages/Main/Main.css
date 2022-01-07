@@ -1,0 +1,73 @@
+@import '/reset.css';
+@import '/index.css';
+@import "components/Chat/Chat.css";
+@import "components/DialogActive/DialogActive.css";
+@import "components/DialogActive/Message/Message.css";
+@import "components/DialogActive/MessageGroup/MessageGroup.css";
+
+.chatsBlock {
+    width: 310px;
+    height: 100vh;
+    flex-shrink: 0;
+
+    background: #FBFBFB;
+
+    border-right: 1px solid #EAEAEA;
+}
+
+.chatsBlockHeader {
+    display: flex;
+    flex-direction: column;
+    /* todo - вынести в переменную */
+    height: 106px;
+
+    padding: 21px 10px 14px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.settingsLink {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 100%;
+
+    color: #999;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+@media (hover: hover) {
+    .settingsLink:hover {
+        color: #bfb6b6;
+    }
+}
+
+.settingsLinkIcon {
+    margin-left: 8px;
+}
+
+.search {
+    width: 100%;
+    margin-top: 23px;
+    padding: 10px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    color: #999;
+    outline: none;
+    background: #EFEFEF;
+}
+
+.chatsBlockChats {
+    height: calc(100vh - 106px);
+    overflow-y: auto;
+}
+
+.dialog {
+    width: 100%;
+}
+

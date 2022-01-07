@@ -13,6 +13,6 @@ export const ProfilePageData = {
         { href: "/src/pages/SignUp/SignUp.html", label: "Выйти" },
     ],
     goBack: {
-        href: "/static/Main/Main.html"
+        href: "/src/pages/Main/Main.html"
     }
 }
