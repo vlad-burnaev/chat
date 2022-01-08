@@ -11,7 +11,8 @@
   "author": "Vlad Burnaev <vlad.burn325@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "*",
-    "handlebars": "^4.7.7"
+    "express": "^4.17.2",
+    "handlebars": "^4.7.7",
+    "parcel": "*"
   }
 }
