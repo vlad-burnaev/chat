@@ -1,14 +1,44 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hello world!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Месседжер</title>
 </head>
 <body>
-    <div id="root">Hello World!</div>
-    <script type="module" src="./src/index.js"></script>
+    <div class="root centeredFullScreen">
+        <ul>
+            <li>
+                <a href="/src/pages/ProfilePages/ProfileEditData/ProfileEditData.html">Edit</a>
+            </li>
+            <li>
+                <a href="/src/pages/ProfilePages/ProfileChangePassword/ProfileChangePassword.html">ChangePW</a>
+            </li>
+            <li>
+                <a href="/src/pages/SignIn/SignIn.html">Страница авторизации</a>
+            </li>
+            <li>
+                <a href="/src/pages/SignUp/SignUp.html">Страница регистрации</a>
+            </li>
+            <li>
+                <a href="/src/pages/Main/Main.html">Список чатов и лента переписки</a>
+            </li>
+            <li>
+                <a href="/src/pages/ProfilePages/Profile/Profile.html">Настройки пользователя</a>
+            </li>
+            <li>
+                <a href="/src/pages/Errors/404/404.html">Страница 404</a>
+            </li>
+            <li>
+                <a href="/src/pages/Errors/500/500.html">Страница 5**</a>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

@@ -2,16 +2,17 @@
   "name": "chat",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/parcel index.html",
-    "build": "./node_modules/.bin/parcel build index.html"
+    "build": "./node_modules/.bin/parcel build index.html",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Vlad Burnaev <vlad.burn325@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "*",
-    "handlebars": "^4.7.7"
+    "express": "^4.17.2",
+    "handlebars": "^4.7.7",
+    "parcel": "*"
   }
 }
