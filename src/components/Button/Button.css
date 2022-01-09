@@ -7,8 +7,8 @@
     border-radius: 8px;
     padding: 12px;
 
-    color:   var(--color-white);
-    background:   var(--color-blue);
+    color: var(--color-white);
+    background: var(--color-blue);
 
     font-size: 13px;
     line-height: 13px;
@@ -16,6 +16,6 @@
 
 @media (hover: hover) {
     .button:hover {
-        background:   var(--color-blue-light);
+        background: var(--color-blue-light);
     }
 }

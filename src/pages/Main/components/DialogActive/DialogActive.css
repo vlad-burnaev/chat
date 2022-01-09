@@ -1,6 +1,9 @@
 @import "/index.css";
 @import "/reset.css";
 
+$dialogHeaderHeight: 55px;
+$dialogFooterHeight: 55px;
+
 .dialogActive {
     width: 100%;
 
@@ -13,13 +16,12 @@
     display: flex;
     justify-content: space-between;
 
-    /* todo - вынести в переменную */
-    height: 55px;
+    height: $dialogHeaderHeight;
 
     padding: 10px 0;
     margin: 0 20px;
 
-    border-bottom: 1px solid   var(--color-grey-light);
+    border-bottom: 1px solid var(--color-grey-light);
 }
 
 .dialogHeaderLeftBlock {
@@ -36,7 +38,7 @@
     margin-right: 10px;
 
     border-radius: 50%;
-    background:   var(--color-grey-light);
+    background: var(--color-grey-light);
 }
 
 .dialogHeaderName {
@@ -61,7 +63,7 @@
     display: flex;
     flex-direction: column-reverse;
 
-    height: calc(100vh - 110px);
+    height: calc(100vh - ($dialogHeaderHeight + $dialogFooterHeight));
 
     padding: 30px 20px;
 
@@ -72,13 +74,12 @@
     display: flex;
     align-items: center;
 
-    /* todo - вынести в переменную */
-    height: 55px;
+    height: $dialogFooterHeight;
 
     padding: 10px 0;
     margin: 0 20px;
 
-    border-top: 1px solid   var(--color-grey-light);
+    border-top: 1px solid var(--color-grey-light);
 }
 
 .dialogAttach {
@@ -91,8 +92,8 @@
 
     border-radius: 30px;
 
-    color:   var(--color-grey);
-    background:   var(--color-grey-light);
+    color: var(--color-grey);
+    background: var(--color-grey-light);
     outline: none;
 
     font-weight: 500;
@@ -112,6 +113,6 @@
 
     margin-left: 10px;
 
-    color:   var(--color-white);
-    background:   var(--color-blue);
+    color: var(--color-white);
+    background: var(--color-blue);
 }

@@ -5,24 +5,25 @@
 @import "components/DialogActive/Message/Message.css";
 @import "components/DialogActive/MessageGroup/MessageGroup.css";
 
+$chatsBlockHeaderHeight: 106px;
+
 .chatsBlock {
     width: 310px;
     height: 100vh;
     flex-shrink: 0;
 
-    background:   var(--color-white);
+    background: var(--color-white);
 
-    border-right: 1px solid   var(--color-grey-light);
+    border-right: 1px solid var(--color-grey-light);
 }
 
 .chatsBlockHeader {
     display: flex;
     flex-direction: column;
-    /* todo - вынести в переменную */
-    height: 106px;
+    height: $chatsBlockHeaderHeight;
 
     padding: 21px 10px 14px;
-    border-bottom: 1px solid   var(--color-grey-light);
+    border-bottom: 1px solid var(--color-grey-light);
 }
 
 .settingsLink {
@@ -32,7 +33,7 @@
 
     width: 100%;
 
-    color:   var(--color-grey);
+    color: var(--color-grey);
 
     font-weight: 500;
     font-size: 12px;
@@ -41,7 +42,7 @@
 
 @media (hover: hover) {
     .settingsLink:hover {
-        color:   var(--color-beige);
+        color: var(--color-beige);
     }
 }
 
@@ -57,13 +58,13 @@
 
     border-radius: 5px;
 
-    color:   var(--color-grey);
+    color: var(--color-grey);
     outline: none;
-    background:   var(--color-grey-light);
+    background: var(--color-grey-light);
 }
 
 .chatsBlockChats {
-    height: calc(100vh - 106px);
+    height: calc(100vh - $chatsBlockHeaderHeight);
     overflow-y: auto;
 }
 
