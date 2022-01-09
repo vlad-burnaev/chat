@@ -1,8 +1,8 @@
 import {ArrowRight1Icon} from "/static/icons/arrowRight1Icon";
 
 export const MainPageTemplate = `
-    <div class="chatsBlock">
-        <div class="chatsBlockHeader">
+    <article class="chatsBlock">
+        <section class="chatsBlockHeader">
             <a href="/src/pages/ProfilePages/Profile/Profile.html" class="settingsLink">
                 Профиль
                 <div class="settingsLinkIcon">
@@ -10,13 +10,13 @@ export const MainPageTemplate = `
                 </div>
             </a>
             <input type="text" class="search" placeholder="Поиск">
-        </div>
-        <div class="chatsBlockChats">
+        </section>
+        <section class="chatsBlockChats">
             {{#chats}}
             {{> Chat }}
             {{/chats}}
-        </div>
-    </div>
+        </section>
+    </article>
     <div class="dialog">
         {{> DialogActive dialog }}
 <!--            <div class="dialogUnselected">-->
