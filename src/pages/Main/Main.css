@@ -5,7 +5,9 @@
 @import "components/DialogActive/Message/Message.css";
 @import "components/DialogActive/MessageGroup/MessageGroup.css";
 
-$chatsBlockHeaderHeight: 106px;
+:root {
+    --chats-block-header-height: 106px;
+}
 
 .chatsBlock {
     width: 310px;
@@ -20,7 +22,7 @@ $chatsBlockHeaderHeight: 106px;
 .chatsBlockHeader {
     display: flex;
     flex-direction: column;
-    height: $chatsBlockHeaderHeight;
+    height: var(--chats-block-header-height);
 
     padding: 21px 10px 14px;
     border-bottom: 1px solid var(--color-grey-light);
@@ -64,7 +66,7 @@ $chatsBlockHeaderHeight: 106px;
 }
 
 .chatsBlockChats {
-    height: calc(100vh - $chatsBlockHeaderHeight);
+    height: calc(100vh - var(--chats-block-header-height));
     overflow-y: auto;
 }
 

@@ -1,8 +1,10 @@
 @import "/index.css";
 @import "/reset.css";
 
-$dialogHeaderHeight: 55px;
-$dialogFooterHeight: 55px;
+:root {
+    --dialog-header-height: 55px;
+    --dialog-footer-height: 55px;
+}
 
 .dialogActive {
     width: 100%;
@@ -16,7 +18,7 @@ $dialogFooterHeight: 55px;
     display: flex;
     justify-content: space-between;
 
-    height: $dialogHeaderHeight;
+    height: var(--dialog-header-height);
 
     padding: 10px 0;
     margin: 0 20px;
@@ -63,7 +65,7 @@ $dialogFooterHeight: 55px;
     display: flex;
     flex-direction: column-reverse;
 
-    height: calc(100vh - ($dialogHeaderHeight + $dialogFooterHeight));
+    height: calc(100vh - (var(--dialog-header-height) + var(--dialog-footer-height)));
 
     padding: 30px 20px;
 
@@ -74,7 +76,7 @@ $dialogFooterHeight: 55px;
     display: flex;
     align-items: center;
 
-    height: $dialogFooterHeight;
+    height: var(--dialog-footer-height);
 
     padding: 10px 0;
     margin: 0 20px;

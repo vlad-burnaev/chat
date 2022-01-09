@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.use(express.static('./'));
+app.use(express.static('./dist'));
 
 const API_PREFIX = '/api/v1';
 
@@ -26,5 +26,5 @@ app.put(`${API_PREFIX}/json`, (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Мой текст и порт: ${PORT}!`);
+    console.log(`Проект запущен! Чекай http://localhost:${PORT}`);
 });
