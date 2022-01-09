@@ -6,7 +6,7 @@
     height: 70px;
     padding: 12px 10px;
 
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid   var(--color-grey-light);
 }
 
 .chatAvatar {
@@ -18,7 +18,7 @@
     margin-right: 10px;
 
     border-radius: 50%;
-    background: #EFEFEF;
+    background:   var(--color-grey-light);
 }
 
 .chatTextBlock {
@@ -32,7 +32,7 @@
 }
 
 .chatTextBlockLastMessage {
-    color: #999;
+    color:   var(--color-grey);
     margin-top: 4px;
     margin-right: 20px;
 
@@ -48,7 +48,7 @@
 }
 
 .chatTextBlockLastMessagePrefix {
-    color: #1E1E1E;
+    color:   var(--color-black-light);
 }
 
 .chatMeta {
@@ -60,7 +60,7 @@
 }
 
 .chatMetaTime {
-    color: #999;
+    color:   var(--color-grey);
 
     font-weight: 500;
     font-size: 9px;
@@ -76,8 +76,8 @@
     height: 20px;
     border-radius: 50%;
 
-    color: #fff;
-    background: #3369F3;
+    color:   var(--color-white);
+    background:   var(--color-blue);
 
     font-weight: 500;
     font-size: 11px;

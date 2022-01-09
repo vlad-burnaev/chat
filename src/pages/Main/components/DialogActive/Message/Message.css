@@ -22,7 +22,7 @@
 
     margin-left: 14px;
 
-    color: #3369F3;
+    color:   var(--color-blue);
 }
 
 .messageMeta svg {

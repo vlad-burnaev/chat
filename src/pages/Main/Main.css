@@ -12,7 +12,7 @@
 
     background: #FBFBFB;
 
-    border-right: 1px solid #EAEAEA;
+    border-right: 1px solid   var(--color-grey-light);
 }
 
 .chatsBlockHeader {
@@ -22,7 +22,7 @@
     height: 106px;
 
     padding: 21px 10px 14px;
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid   var(--color-grey-light);
 }
 
 .settingsLink {
@@ -32,7 +32,7 @@
 
     width: 100%;
 
-    color: #999;
+    color:   var(--color-grey);
 
     font-weight: 500;
     font-size: 12px;
@@ -41,7 +41,7 @@
 
 @media (hover: hover) {
     .settingsLink:hover {
-        color: #bfb6b6;
+        color:   var(--color-beige);
     }
 }
 
@@ -57,9 +57,9 @@
 
     border-radius: 5px;
 
-    color: #999;
+    color:   var(--color-grey);
     outline: none;
-    background: #EFEFEF;
+    background:   var(--color-grey-light);
 }
 
 .chatsBlockChats {

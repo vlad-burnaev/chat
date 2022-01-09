@@ -16,7 +16,7 @@
 
     border-radius: 50%;
 
-    background: #EFEFEF;
+    background:   var(--color-grey-light);
 }
 
 .avatarOverlay {
@@ -36,7 +36,7 @@
 
     border-radius: 50%;
 
-    background: #000;
+    background:   var(--color-black);
 
     opacity: 0;
     transition: all 0.3s ease;
@@ -47,7 +47,7 @@
 }
 
 .avatarOverlayText {
-    color: #fff;
+    color:   var(--color-white);
 
     font-weight: 500;
     font-size: 13px;
