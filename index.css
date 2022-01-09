@@ -10,6 +10,8 @@
     --color-grey: #999999;
     --color-beige: #BFB6B6;
     --color-grey-light: #E4EDFD;
+
+    --box-shadow-medium: 0 0 6px rgba(0, 0, 0, 0.14);
 }
 
 html {

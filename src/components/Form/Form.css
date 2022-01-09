@@ -1,8 +1,3 @@
-/* todo:
-    - затащить PostCss или аналог (переменные, переиспользование стилей)
-    - вынести в переменные color, box-shadow
-*/
-
 @import "FormField/FormField.css";
 @import "../Button/Button.css";
 
@@ -18,7 +13,7 @@
     padding: 50px 30px 30px;
 
     background: var(--color-white);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+    box-shadow: var(--box-shadow-medium);
 }
 
 .title {
