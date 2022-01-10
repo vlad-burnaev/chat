@@ -2,7 +2,7 @@ import {ArrowRight1Icon} from "/static/icons/arrowRight1Icon";
 
 export const MainPageTemplate = `
     <article class="chatsBlock">
-        <section class="chatsBlockHeader">
+        <nav class="chatsBlockHeader">
             <a href="/src/pages/ProfilePages/Profile/Profile.html" class="settingsLink">
                 Профиль
                 <div class="settingsLinkIcon">
@@ -10,7 +10,7 @@ export const MainPageTemplate = `
                 </div>
             </a>
             <input type="text" class="search" placeholder="Поиск">
-        </section>
+        </nav>
         <ul class="chatsBlockChats">
             {{#chats}}
                 {{> Chat }}
