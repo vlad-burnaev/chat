@@ -1,3 +1,3 @@
 export const ButtonTemplate = `
-    <a href={{href}} class="button">{{label}}</a>
+    <button onclick="window.location.href = 'http://localhost:3000{{href}}'" class="button">{{label}}</button>
 `

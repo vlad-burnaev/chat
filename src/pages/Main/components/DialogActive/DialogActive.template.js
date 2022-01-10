@@ -3,8 +3,8 @@ import {ArrowRight2Icon} from "/static/icons/arrowRight2Icon";
 import {MenuIcon} from "/static/icons/MenuIcon";
 
 export const DialogActiveTemplate = `
-    <div class="dialogActive">
-        <div class="dialogHeader">
+    <article class="dialogActive">
+        <section class="dialogHeader">
             <div class="dialogHeaderLeftBlock">
                 <div class="dialogHeaderAvatar"></div>
                 <div class="dialogHeaderName">{{data.name}}</div>
@@ -12,13 +12,13 @@ export const DialogActiveTemplate = `
             <div class="dialogHeaderRightBlock">
                 ${MenuIcon}
             </div>
-        </div>
-        <div class="dialogMain">
+        </section>
+        <ul class="dialogMain">
             {{#data.messageGroups}}
                 {{> MessageGroup }}
             {{/data.messageGroups}}
-        </div>
-        <div class="dialogFooter">
+        </ul>
+        <section class="dialogFooter">
             <button class="dialogAttach">
                 ${ClipIcon}
             </button>
@@ -26,6 +26,6 @@ export const DialogActiveTemplate = `
             <button class="dialogEnterButton">
                 ${ArrowRight2Icon}
             </button>
-        </div>
-    </div>
+        </section>
+    </article>
 `

@@ -7,15 +7,13 @@ Handlebars.registerHelper('isSent', function (value) {
 });
 
 export const MessageTemplate = `
-    <div class="message">
+    <li class="message">
         <span class="messageText">{{text}}</span>
         <div class="messageMeta">
             {{#if (isSent meta.status)}}
-<!--                <div class="messageMetaIcon">-->
-                    ${CheckMarkIcon}
-<!--                </div>-->
+                ${CheckMarkIcon}
             {{/if}}
             <span class="messageMetaText">{{meta.time}}</span>
         </div>
-    </div>
+    </li>
 `
