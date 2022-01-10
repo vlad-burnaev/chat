@@ -13,11 +13,11 @@ export const DialogActiveTemplate = `
                 ${MenuIcon}
             </div>
         </section>
-        <section class="dialogMain">
+        <ul class="dialogMain">
             {{#data.messageGroups}}
                 {{> MessageGroup }}
             {{/data.messageGroups}}
-        </section>
+        </ul>
         <section class="dialogFooter">
             <button class="dialogAttach">
                 ${ClipIcon}

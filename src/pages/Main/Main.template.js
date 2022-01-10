@@ -11,11 +11,11 @@ export const MainPageTemplate = `
             </a>
             <input type="text" class="search" placeholder="Поиск">
         </section>
-        <section class="chatsBlockChats">
+        <ul class="chatsBlockChats">
             {{#chats}}
-            {{> Chat }}
+                {{> Chat }}
             {{/chats}}
-        </section>
+        </ul>
     </article>
     <div class="dialog">
         {{> DialogActive dialog }}

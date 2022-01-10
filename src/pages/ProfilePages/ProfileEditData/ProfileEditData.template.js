@@ -2,14 +2,14 @@ export const ProfileEditDataPageTemplate = `
     <div class="content">
         {{> ProfileAvatar }}
         <div class="name">Иван</div>
-        <div class="info">
+        <ul class="info">
             {{#data}}
                 {{> ProfileDataFieldEditable }}
             {{/data}}
-        </div>
-        <div class="actions">
+        </ul>
+        <ul class="actions">
             {{> Button submitButton }}
-        </div>
+        </ul>
         {{> ProfileGoBack goBack }}
     </div>
 `

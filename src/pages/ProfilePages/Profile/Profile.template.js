@@ -2,16 +2,16 @@ export const ProfilePageTemplate = `
     <div class="content">
         {{> ProfileAvatar }}
         <div class="name">Иван</div>
-        <div class="info">
+        <ul class="info">
             {{#data}}
                 {{> ProfileDataField }}
             {{/data}}
-        </div>
-        <div class="actions">
+        </ul>
+        <ul class="actions">
             {{#actions}}
                 {{> ProfileActionButton }}
             {{/actions}}
-        </div>
+        </ul>
         {{> ProfileGoBack goBack }}
     </div>
 `

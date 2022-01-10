@@ -1,5 +1,5 @@
 export const ChatTemplate = `
-    <div class="chat">
+    <li class="chat">
         <div class="chatAvatar"></div>
         <div class="chatTextBlock">
             <div class="chatTextBlockName">{{name}}</div>
@@ -18,5 +18,5 @@ export const ChatTemplate = `
                 </div>
             {{/if}}
         </div>
-    </div>
+    </li>
 `
